@@ -33,3 +33,7 @@ jobs:
       - name: Run R script
         run: |
           Rscript crypto_daily_refresh.R
+
+      - name: Run R script
+        run: |
+          Rscript all_crypto_ohlcv.R
